@@ -1,0 +1,38 @@
+.sous-titre {
+    text-align: left;
+}
+
+.deux-alternatives{
+    width: 100%;
+    height: 70px;
+    border-radius: 15px;
+    background-color: rgb(20, 188, 255);
+    color: rgb(83, 0, 90);
+}
+.deux-alternatives h3 {
+    padding-top: 15px;
+}
+.alternative-items {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.alternative-item-one {
+    background-color:rgb(14, 126, 255);
+    color:#fff;
+    border-radius: 15px;
+    
+}
+.alternative-item-two {
+    background-color:rgb(22, 255, 1);
+    color:#fff;
+    border-radius: 15px;
+    margin-left: 10px;
+
+}
+.alternative-items div p {
+    font-size: 20px
+}
+.ul li {
+    list-style: square;
+}

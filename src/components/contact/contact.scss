@@ -1,0 +1,115 @@
+@import "../../global.scss";
+
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    .left{
+        width: 30%;
+        margin: 9rem auto;
+        @media (max-width: 700px) {
+          width: 20%;
+         
+        }
+
+        i{
+          font-size: 2rem;
+          color: $blue;
+        }
+        p{
+            padding-top: .5rem;
+            font-size: 1.5rem;
+            @media (max-width: 700px) {
+              font-size: 1rem;
+            }
+            @media (max-width: 700px) {
+              font-size: .7rem;
+            }
+            span{
+                text-transform: lowercase;
+            }
+        }
+    }
+  .right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-right: 5rem;
+    padding-top: 2rem;
+    @media (max-width: 700px) {
+      width: 40%;
+    }
+
+
+    #myForm{
+      flex: 1 1 30rem;
+
+      h2 {
+        font-size: 2rem;
+        text-transform: none;
+        color: $black;
+        padding-bottom: 1rem;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+
+      .inputBox {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        input {
+          width: 49%;
+        }
+      }
+
+      .inputBox input{
+        padding: 1rem 1rem;
+        border-radius: 0.5rem;
+        // box-shadow: $box-shadow;
+        border: $border;
+        background: $white;
+        text-transform: none;
+        color: $light-black;
+        font-size: 1rem;
+        margin: 0.7rem 0;
+      }
+
+      textarea {
+        border: $border;
+        border-radius: .5rem;
+        background-color: $white;
+        height: 10rem;
+        resize: none;
+        width: 100%;
+        padding: 1rem 1rem;
+      }
+      .btnSend{
+        margin-top: .5rem;
+        display: inline-block;
+        border-radius: .5rem;
+        padding:.5rem 1rem;
+        font-size: 1.2rem;
+        color:$white;
+        cursor: pointer;
+        background: $blue;
+      
+        &:hover{
+          background: $black;
+        }
+      }
+      span{
+          color: $crimson;
+          padding-left: 1rem;
+      }
+    }
+  }
+}
+#map_adress{
+  border: $border;
+  border-radius: .5rem;
+  width: 80%;
+  margin: 2rem auto;
+}

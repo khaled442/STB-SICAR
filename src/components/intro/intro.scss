@@ -1,0 +1,267 @@
+@import "../../global.scss";
+
+.introduction {
+  #presentation {
+    .presentation {
+      text-align: center;
+      width: 90%;
+      margin: 1rem auto;
+      h2{
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        color: $black;
+        font-size: 2.5rem;
+      }
+
+      p {
+        text-transform: none;
+        font-weight: 500;
+        font-size: 1.5rem;
+      }
+    }
+    .chiffreCles {
+      width: 90%;
+      margin: 2rem auto;
+      h2 {
+        text-transform: uppercase;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 2rem;
+      }
+      .rowNousConnaitre {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+      }
+      .chiffreCles-col {
+        border-radius: 10px;
+        border: 1px solid lightseagreen;
+        width: 30%;
+        background: lightseagreen;
+        height: 5rem;
+        padding-top: 1.3rem;
+        color: $white;
+        text-align: center;
+        cursor: pointer;
+        span {
+          font-size: 1.5rem;
+        }
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+      .chiffreCles-col1 {
+        border-radius: 10px;
+        border: 1px solid lightseagreen;
+        width: 45%;
+        background: lightseagreen;
+        height: 7rem;
+        padding-top: 1.5rem;
+        color: $white;
+        text-align: center;
+        cursor: pointer;
+        span {
+          font-size: 1.5rem;
+        }
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+      .chiffreCles-col2 {
+        border-radius: 10px;
+        border: 1px solid lightseagreen;
+        width: 30%;
+        background: lightseagreen;
+        height: 5rem;
+        padding-top: 0.7rem;
+        color: $white;
+        text-align: center;
+        cursor: pointer;
+        span {
+          font-size: 1.5rem;
+        }
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+      .chiffreCles-col3 {
+        border-radius: 10px;
+        border: 1px solid lightseagreen;
+        width: 30%;
+        background: lightseagreen;
+        height: 5rem;
+        padding-top: 0.5rem;
+        color: $white;
+        text-align: center;
+        cursor: pointer;
+        span {
+          font-size: 1.5rem;
+        }
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    h2 {
+      text-transform: uppercase;
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      margin-bottom: 2rem;
+      letter-spacing: 1px;
+    }
+    .principeInvestissement {
+      width: 100%;
+      margin: 1rem auto;
+      text-align: center;
+      background-color: whitesmoke;
+      .invest {
+        display: flex;
+        width: inherit;
+        .left {
+          width: 30%;
+          img {
+            object-fit: contain;
+            width: 100%;
+            height: 70vh;
+          }
+        }
+        .right {
+          width: 70%;
+          margin: 2rem auto;
+          padding-top: 5rem;
+          display: flex;
+          .circle {
+            width: 60%;
+            button {
+              border-radius: 50%;
+              width: 80%;
+              height: 60%;
+              background-color: lightcoral;
+              color: $white;
+              font-size: 1rem;
+              font-weight: bold;
+              text-align: center;
+              text-transform: none;
+              padding: 1rem;
+              cursor: pointer;
+              &:hover {
+                transform: scale(1.1);
+              }
+            }
+          }
+        }
+        .right .circle:nth-child(1) button {
+          background-color: lightgreen;
+        }
+        .right .circle:nth-child(2) button {
+          background-color: lightsalmon;
+        }
+        .right .circle:nth-child(3) button {
+          background-color: lightseagreen;
+        }
+        .right .circle:nth-child(4) button {
+          background-color: lightslategrey;
+        }
+      }
+    }
+
+    .mode-intervention {
+      padding: 60px;
+      background: #7f8cfc;
+      @media (max-width: 700px) {
+        flex-direction: column;
+      }
+
+      .action-mode-intervention {
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width: 700px) {
+          flex-direction: column;
+        }
+
+        .col-mode-intervention {
+          background-color: $white;
+          width: 80%;
+          height: 6rem;
+          padding: 1rem;
+          margin: 10px;
+          border-radius: 15px;
+          cursor: pointer;
+          text-align: center;
+          box-shadow: $box-shadow;
+
+          span {
+            text-transform: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+          }
+
+          &:hover {
+            transform: translateY(5px);
+          }
+        }
+      }
+    }
+
+    .etat-esprit {
+      position: relative;
+      width: 90%;
+      margin: 1rem auto;
+      text-align: center;
+
+      h2 {
+        margin-bottom: 1rem;
+      }
+
+      .col-box {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1rem;
+
+        .col-etat-esprit {
+          width: 49%;
+          height: 20rem;
+          padding: 1rem;
+          border-radius: 15px;
+          box-shadow: $box-shadow;
+
+          .title {
+            display: flex;
+            padding: 1rem;
+            h4 {
+              margin-left: 3rem;
+              font-size: 1.1rem;
+              text-transform: uppercase;
+              font-family: "Roboto", sans-serif;
+              font-weight: 500;
+            }
+            i {
+              margin-left: 2rem;
+              color: lightcoral;
+              font-size: 2rem;
+              border-radius: 50%;
+            }
+          }
+          p {
+            letter-spacing: 0.7px;
+            text-transform: none;
+            margin-top: 0.7rem;
+          }
+        }
+        // #last-el{
+        //   display: flex;
+        //   justify-content: center;
+        //   flex-direction: column;
+        //   align-items: center;
+        //   .title{
+        //     h4{
+
+        //     }
+        //   }
+        // }
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+@import '../../global.scss';
+
+
+.footbar{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  left: 0;
+  background-color: $light-black;
+
+  @media (max-width: 450px){
+    padding: 0 3%;
+  }
+  
+  .foot_text{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    background-color: $light-black;
+    justify-content: space-around;
+    @media (max-width: 600px){
+      gap: 1rem;
+    }
+    @media (max-width: 450px){
+      gap: .6rem;
+    }
+
+    .footer_logo{
+      background-color: $light-black;
+        
+      img{
+          height: 8rem;
+          width: 100%;
+          margin-top: 2rem;
+        @media (max-width: 600px){
+            width: 90%;
+            height:3rem;
+          }
+          @media (max-width: 450px){
+            display: none;
+          }
+      }
+    }
+
+    .cols{
+      background-color: $light-black;
+      margin-top: 1rem;
+      
+      h2{
+        background-color: $light-black;
+        @media (max-width: 660px){
+          font-size: .9rem;
+        }
+      }
+      
+      ul{
+        list-style: none;
+        margin-top: 1rem;
+        background-color: $light-black;
+        
+        li{
+          background-color: $light-black;
+          margin-top: 1rem;
+          a{
+            background-color: inherit;
+            color: #9b9b9b;
+            font-weight: 500;
+            @media (max-width: 660px){
+              font-size: 80%;
+            }
+            @media (max-width: 450px){
+              font-size: 60%;
+            }
+
+            &:hover{
+              color: lightgray;
+            }
+          }
+        }
+      }
+      .share{
+        background-color: $light-black;
+
+        li{
+
+          i{
+            background-color: $light-black;
+            @media (max-width: 450px){
+                font-size: 60%;
+            }
+          }
+          a{
+            background-color: $light-black;
+            text-decoration: none;
+            color: #9b9b9b;
+            margin-left: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  .webmaster{
+    background-color: $light-black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+    p{
+      background-color: inherit;
+      text-transform: lowercase;
+      @media (max-width: 660px){
+        font-size: 60%;
+      }
+    }
+  }
+  
+  }

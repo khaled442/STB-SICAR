@@ -1,0 +1,184 @@
+@import "../../global.scss";
+
+#responsabilité{
+width: 100%;
+margin: 2rem auto;
+
+h2{
+  text-align: center;
+  color: $black;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 2rem;
+}
+.Icons {
+  text-align: center;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 40%;
+  margin: 2rem auto;
+  gap: 2rem;
+
+  div{
+    width: 100%;
+    box-shadow: $box-shadow;
+    border-radius: 15px;
+    padding: 1rem;
+    i{
+      font-size: 5rem;
+      color: $blue;
+    }
+    h3{
+      margin-top: 2rem;
+      font-size: 1.1rem;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+    }
+  }
+}
+#politique {
+  display: flex;
+  justify-content: space-between;
+
+  .left{
+    img{
+      height: 30rem;
+    }
+  }
+  .right{
+    padding-top: 2rem;
+    padding-left: 3rem;
+    background-color: rgb(15%, 20%, 32%);
+    height: 30rem;
+    .top{
+      display: flex;
+      margin-top: 3rem;
+      margin-left: 2.5rem;
+      i{
+        color: $white;
+        font-size: 2rem;
+      }
+      h1{
+        color: $white;
+        margin-left: 2.5rem;
+      }
+    }
+    p{
+      color: $white;
+      text-align: center;
+      margin: 2.5rem auto;
+      font-size: 1.5rem;
+      text-transform: none;
+      padding: 1rem;
+    }
+
+  }
+}
+
+.cercles {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+
+
+  .cercle1 {
+    color: white;
+    font-size: 1.5rem;
+    width: 20%;
+    height: 17rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    border-radius: 200px;
+    background-color: rgb(15%, 20%, 32%);
+    text-transform: none;
+  }
+  .cercle2 {
+    color: white;
+    font-size: 1.5rem;
+    width: 20%;
+    height: 17rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    border-radius: 200px;
+    background-color: rgb(59, 88, 155);
+    text-transform: none;
+  }
+  .cercle3 {
+    color: white;
+    font-size: 1.5rem;
+    width: 20%;
+    height: 17rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    border-radius: 200px;
+    background-color: rgb(111, 153, 250);
+    text-transform: none;
+  }
+
+}
+
+// 
+.politique2{
+  margin-top: 3rem;
+  #right2{
+    padding-top: 0rem;
+
+    p{
+      margin: .4rem auto;
+      font-size: 1.3rem;
+    }
+  }
+
+}
+//   .cercle1-2 {
+//     color: white;
+//     font-size: 13px;
+//     padding-left: 90px;
+//     padding-right: 90px;
+//     padding-top: 110px;
+//     padding-bottom: 90px;
+//     margin-top: 50px;
+//     margin-bottom: -60px;
+//     margin-left: 24.5rem;
+//     background-color: rgb(15%, 20%, 32%);
+//     border-radius: 200px;
+//   }
+//   .cercle2-2 {
+//     color: white;
+//     font-size: 13px;
+//     padding-left: 90px;
+//     padding-right: 90px;
+//     padding-top: 110px;
+//     padding-bottom: 90px;
+//     padding: 110px;
+//     margin-top: 50px;
+//     margin-bottom: -60px;
+//     background-color: rgb(59, 88, 155);
+//     border-radius: 200px;
+//   }
+//   .cercle3-2 {
+//     color: white;
+//     font-size: 13px;
+//     padding-left: 90px;
+//     padding-right: 90px;
+//     padding-top: 110px;
+//     padding-bottom: 90px;
+//     margin-top: 50px;
+//     margin-bottom: -60px;
+//     margin-right: 24.5rem;
+//     background-color: rgb(111, 153, 250);
+//     border-radius: 220px;
+//   }
+  
+//   .cercles-2 {
+//     display: flex;
+//     justify-content: space-around;
+//     padding-bottom: 10rem;
+//   }
+
+}
+  
+
